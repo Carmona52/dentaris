@@ -1,0 +1,33 @@
+{
+  "email": "support@dentaris.com",
+  "telefono": "+52 2382288483",
+  "direccion": "Prolongación de la 1 sur No. 1101 San Pablo Tepetzingo, 75859 Tehuacán, Pue.",
+  "dias": "Lunes a Viernes",
+  "horario": "8am-5pm",
+  "team": [
+    {
+      "name": "Jesus Carmona",
+      "role": "CEO & Fundador",
+      "bio": "Experto en tecnología dental con 10+ años en desarrollo de software para el sector salud.",
+      "image": "/team/johan.jpg"
+    },
+    {
+      "name": "Johan Emmanuel",
+      "role": "Directora Médica",
+      "bio": "Odontóloga especializada en transformación digital de clínicas dentales.",
+      "image": "/team/hector.jpg"
+    },
+    {
+      "name": "Kevin Cruz",
+      "role": "CEO & Fundador",
+      "bio": "Experto en tecnología dental con 10+ años en desarrollo de software para el sector salud.",
+      "image": "/team/johan.jpg"
+    },
+    {
+      "name": "Heector Miguel",
+      "role": "CEO & Fundador",
+      "bio": "Experto en tecnología dental con 10+ años en desarrollo de software para el sector salud.",
+      "image": "/team/johan.jpg"
+    }
+  ]
+}

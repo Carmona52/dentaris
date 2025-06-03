@@ -1,0 +1,58 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+
+@layer base {
+    :root {
+        --font-sans: 'Noto Sans', sans-serif;
+        --text-h1: 2.5rem;
+        --text-h2: 2rem;
+        --text-body: 1rem;
+    }
+
+    h1 {
+        font-size: var(--text-h1);
+        font-family: var(--font-sans);
+        font-weight: 700;
+    }
+
+    h2 {
+        font-size: var(--text-h2);
+    }
+
+    body {
+        font-size: var(--text-body);
+        background-color: #F2F8FC;
+
+
+    }
+
+    .principal-btn {
+        @apply bg-[#96DFE4] text-black px-4 py-2 rounded transition-all duration-300 font-bold;
+        @apply cursor-pointer;
+
+        &:hover {
+            @apply bg-[#1E6F9F] text-white;
+        }
+
+
+    }
+
+    .secundary-btn {
+        @apply bg-[#6BB1E2] text-white px-4 py-2 rounded transition-all duration-300;
+
+        &:hover {
+            @apply bg-[#155A82];
+        }
+    }
+
+    .cancel-btn {
+        @apply rounded transition-all duration-300 font-bold;
+        @apply cursor-pointer;
+        &:hover {
+            @apply bg-red-600 text-white;
+
+        }
+    }
+
+}
