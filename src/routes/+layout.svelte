@@ -8,7 +8,7 @@
 	let { children } = $props();
 </script>
 
-<div>
+<div class="min-h-screen flex-col items-center w-full scroll-smooth">
     <Navbar/>
     <main>
         {@render children()}

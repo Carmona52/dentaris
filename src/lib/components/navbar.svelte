@@ -65,6 +65,7 @@
             <div class="md:hidden mt-4 pb-4 space-y-3">
                 {#each navItems as item (item.id)}
                     <a
+                            on:click={() => (isOpen = !isOpen)}
                             href={item.href}
                             class="block py-2 text-text-light hover:text-accent-turquoise transition-colors"
                     >
