@@ -46,7 +46,7 @@
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 w-full px-5 text-center">
         {#each data as data (data.id)}
             <div class="flex flex-col items-center max-w-sm rounded overflow-hidden shadow-lg text-center w-90 bg-white h-60 mx-auto md:mx-5">
-                <i class={data.icon} style="color:#3a20fe"></i>
+                <i class={data.icon} style="color:#84b6f4"></i>
                 <div class="px-6 py-4">
                     <div class="font-bold text-xl mb-2">{data.title}</div>
                     <p class="text-gray-700 text-base">{data.description}</p>

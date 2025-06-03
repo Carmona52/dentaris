@@ -1,32 +1,32 @@
 {
   "email": "support@dentaris.com",
-  "telefono": "+52 2382288483",
+  "telefono": "+52 2381512970",
   "direccion": "Prolongación de la 1 sur No. 1101 San Pablo Tepetzingo, 75859 Tehuacán, Pue.",
   "dias": "Lunes a Viernes",
   "horario": "8am-5pm",
   "team": [
     {
-      "name": "Jesus Carmona",
+      "name": "Kevin Diego Cruz",
       "role": "CEO & Fundador",
-      "bio": "Experto en tecnología dental con 10+ años en desarrollo de software para el sector salud.",
+      "bio": "Experto en tecnología con 3+ años en desarrollo de software para el sector.",
+      "image": "/team/johan.jpg"
+    },
+    {
+      "name": "Jesús Carmona",
+      "role": "Programador Front-End",
+      "bio": "Experto en tecnología 5+ años en desarrollo de software para el sector.",
       "image": "/team/johan.jpg"
     },
     {
       "name": "Johan Emmanuel",
-      "role": "Directora Médica",
-      "bio": "Odontóloga especializada en transformación digital de clínicas dentales.",
-      "image": "/team/hector.jpg"
-    },
-    {
-      "name": "Kevin Cruz",
-      "role": "CEO & Fundador",
-      "bio": "Experto en tecnología dental con 10+ años en desarrollo de software para el sector salud.",
+      "role": "Programador Back-End",
+      "bio": "Experto en tecnología 3+ años en desarrollo de software para el sector.",
       "image": "/team/johan.jpg"
     },
     {
       "name": "Heector Miguel",
-      "role": "CEO & Fundador",
-      "bio": "Experto en tecnología dental con 10+ años en desarrollo de software para el sector salud.",
+      "role": "Arquitecto en Software",
+      "bio": "Experto en tecnología con 10+ años en desarrollo de software para el sector administrativo.",
       "image": "/team/johan.jpg"
     }
   ]

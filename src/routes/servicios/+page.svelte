@@ -1,7 +1,5 @@
 <script>
 
-    import servicesData from '$lib/data/data.json';
-
     const services = [
         {
             icon: 'chart-bar',

@@ -9,16 +9,16 @@
                 <div class="w-full lg:w-7xl px-4 text-center">
                     <div class="mx-auto">
                         <h1 class="text-white font-semibold text-5xl">
-                            TU HISTORIA INICIA CON NOSOTROS
+                            TRANSFORMA TU CLÍNICA DENTAL CON NOSOTROS
                         </h1>
-                        <p class="mt-4 text-lg text-white mx-auto max-w-3xl"> <!-- Añadido max-w-3xl para control de ancho -->
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie mauris mi, mattis
-                            mollis leo faucibus quis. Integer pellentesque porttitor lacus nec sodales. Integer
-                            facilisis ultricies ultrices. Aliquam erat volutpat.
+                        <p class="mt-4 text-lg text-white mx-auto max-w-3xl">
+                            En Dentaris desarrollamos la solución tecnológica integral para modernizar tu consultorio.
+                            Digitaliza historiales médicos, optimiza la gestión de citas y potencia el diagnóstico
+                            con nuestra plataforma especializada para profesionales dentales.
                         </p>
                         <br>
 
-                        <button onclick={()=>window.location.href="#images"} class="principal-btn w-2xs sm:w-xs">SABER MÁS</button>
+                        <button onclick={()=>window.location.href="#images"} class="principal-btn w-2xs sm:w-xs">DESCUBRE CÓMO</button>
                     </div>
                 </div>
             </div>
@@ -45,8 +45,8 @@
                         </div>
                         <h6 class="text-xl font-semibold">Agencia Premiada</h6>
                         <p class="mt-2 mb-4 text-blueGray-500">
-                            Divide los detalles sobre tu producto o el trabajo de tu agencia en partes.
-                            Un párrafo describiendo una característica será suficiente.
+                            Plataforma con encriptación de datos y cumplimiento HIPAA para garantizar
+                            la confidencialidad de los historiales médicos de tus pacientes.
                         </p>
 
                     </div>
@@ -61,8 +61,8 @@
                         </div>
                         <h6 class="text-xl font-semibold">Revisiones Gratuitas</h6>
                         <p class="mt-2 mb-4 text-blueGray-500">
-                            Mantén a tu usuario interesado proporcionando información significativa.
-                            Recuerda que, a estas alturas, el usuario está curioso.
+                            Equipo técnico con amplia experiencia disponible 24/7 para
+                            resolver cualquier incidencia inmediatamente.
                         </p>
 
                     </div>
@@ -77,8 +77,7 @@
                         </div>
                         <h6 class="text-xl font-semibold">Empresa Verificada</h6>
                         <p class="mt-2 mb-4 text-blueGray-500">
-                            Escribe unas líneas sobre cada una. Un párrafo describiendo una
-                            característica será suficiente. ¡Mantén a tu usuario interesado!
+                           Empresa reconocida tanto por odontologos como profesionales de IT
                         </p>
 
                     </div>

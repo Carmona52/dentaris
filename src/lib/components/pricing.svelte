@@ -1,12 +1,13 @@
 <script lang="ts">
 
     const services = [
-        {id: 1, name: "Servicio 1"},
-        {id: 2, name: "Servicio 2"},
-        {id: 3, name: "Servicio 3"},
-        {id: 4, name: "Servicio 4"},
-        {id: 5, name: "Servicio 5"},
-        {id: 6, name: "Servicio 6"}
+        {id: 1, name: "Agenda Digital"},
+        {id: 2, name: "Control de Pacientes"},
+        {id: 3, name: "Historial Médico"},
+        {id: 4, name: "Odontograma"},
+        {id: 5, name: "Control de Inventario"},
+        {id:6, name:"Administración financiera"},
+        {id: 7, name: "Control de Clínicas"}
     ];
 
 
@@ -27,7 +28,7 @@
         <div class="rounded-3xl rounded-t-3xl bg-white/60 p-8 ring-1 ring-gray-900/10 sm:mx-8 sm:rounded-b-none sm:p-10 lg:mx-0 lg:rounded-tr-none lg:rounded-bl-3xl">
             <h3 id="tier-hobby" class="text-base/7 font-semibold text-indigo-600">Paquete Básico</h3>
             <p class="mt-4 flex items-baseline gap-x-2">
-                <span class="text-5xl font-semibold tracking-tight text-gray-900">$29</span>
+                <span class="text-5xl font-semibold tracking-tight text-gray-900">$500</span>
                 <span class="text-base text-gray-500">/mes</span>
             </p>
             <p class="mt-6 text-base/7 text-gray-600">Perfecto para pequeños negocios </p>
@@ -53,7 +54,7 @@
         <div class="rounded-3xl rounded-t-3xl bg-white/60 p-8 ring-1 ring-gray-900/10 sm:mx-8 sm:p-10 lg:mx-0 lg:rounded-bl-3xl">
             <h3 id="tier-hobby" class="text-base/7 font-semibold text-indigo-600">Paquete Completo</h3>
             <p class="mt-4 flex items-baseline gap-x-2">
-                <span class="text-5xl font-semibold tracking-tight text-gray-900">$29</span>
+                <span class="text-5xl font-semibold tracking-tight text-gray-900">$899</span>
                 <span class="text-base text-gray-500">/mes</span>
             </p>
             <p class="mt-6 text-base/7 text-gray-600">Perfecto para grandes negocios con mayor necesidades</p>

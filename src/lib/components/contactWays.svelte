@@ -56,7 +56,7 @@
                         {contactInfo.phone}
                     </a>
                     <a
-                            href="https://wa.me/522382288483?text=Hola%20Dentaris,%20tengo%20una%20consulta"
+                            href="https://wa.me/522381512970?text=Hola%20Dentaris,%20tengo%20una%20consulta"
                             target="_blank"
                             rel="noopener noreferrer"
                             class="flex justify-center items-center mt-2 gap-2 px-4 py-2 text-sm font-semibold text-white bg-[#25D366] hover:bg-[#128C7E] rounded-md shadow-sm transition-colors"
