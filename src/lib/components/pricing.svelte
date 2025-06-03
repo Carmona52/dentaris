@@ -46,7 +46,7 @@
                 {/each}
             </ul>
             <button class="principal-btn block px-3.5 mt-8 text-center text-sm mx-auto md:w-1xs lg:w-50"
-                    on:click={() => window.location.href = "/contact"}>
+                    on:click={() => window.location.href = "/contacto"}>
                 Contratar
             </button>
 
@@ -74,7 +74,8 @@
                 {/each}
 
             </ul>
-            <button class="principal-btn block px-3.5 mt-8 text-center text-sm mx-auto md:w-1xs lg:w-50">
+            <button class="principal-btn block px-3.5 mt-8 text-center text-sm mx-auto md:w-1xs lg:w-50"
+                    on:click={() => window.location.href = "/contacto"}>
                 Contratar
             </button>
         </div>
@@ -84,8 +85,9 @@
 
             <p class="text-center mx-auto mt-6 text-base/7 text-gray-600">No encuentras lo que necesitas, o tu negocio requiere una serie de funciones espcíficas? <br></p>
 
-            <button class="principal-btn block px-3.5 mt-8 text-center text-sm mx-auto md:w-1xs lg:w-50">
-                Contáctanos
+            <button class="principal-btn block px-3.5 mt-8 text-center text-sm mx-auto md:w-1xs lg:w-50"
+                    on:click={() => window.location.href = "/contacto"}>
+                Contratar
             </button>
         </div>
     </div>
