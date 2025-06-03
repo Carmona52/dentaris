@@ -45,9 +45,11 @@
                     </li>
                 {/each}
             </ul>
-            <button class="principal-btn block px-3.5 mt-8 text-center text-sm mx-auto md:w-1xs lg:w-50">
+            <button class="principal-btn block px-3.5 mt-8 text-center text-sm mx-auto md:w-1xs lg:w-50"
+                    on:click={() => window.location.href = "/contact"}>
                 Contratar
             </button>
+
 
         </div>
 
