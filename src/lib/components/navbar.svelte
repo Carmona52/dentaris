@@ -73,6 +73,7 @@
                     </a>
                 {/each}
                 <a
+                        on:click={() => (isOpen = !isOpen)}
                         href="/contacto"
                         class="block mt-4 bg-accent-turquoise text-text-light text-center py-2 rounded-lg"
                 >

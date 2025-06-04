@@ -18,7 +18,7 @@
                         </p>
                         <br>
 
-                        <button onclick={()=>window.location.href="#images"} class="principal-btn w-2xs sm:w-xs">DESCUBRE CÓMO</button>
+                        <button onclick={()=>window.location.href="#images"} class="principal-btn w-2xs sm:w-xs">Empieza Gratis Ahora</button>
                     </div>
                 </div>
             </div>
