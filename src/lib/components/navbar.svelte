@@ -3,9 +3,7 @@
 
     const navItems = [
         {id: 1, name: "Inicio", href: "/"},
-        {id: 2, name: "Servicios", href: "/servicios"},
-        {id: 3, name: "Nosotros", href: "/nosotros"},
-        {id: 4, name: "Contacto", href: "/contacto"}
+        {id: 3, name: "Nosotros", href: "/nosotros"}
     ];
 
 
@@ -23,10 +21,12 @@
         class:bg-primary-dark={isScrolled}
         class="w-full z-50 transition-colors duration-300 bg-primary-dark/90 backdrop-blur-sm">
     <div class="container mx-auto px-4 py-3">
-        <div class="flex justify-between items-center">
-            <img src="images/LogoBackRec.png" alt="Logo" class="h-25 -mx-2">
 
-            <nav class="hidden md:flex space-x-8">
+        <div class="flex items-center">
+            <div>
+                <img src="images/LogoBackRec.png" alt="Logo" class="h-25 -mx-2" on:click={() => (window.location.href="/")}>
+            </div>
+            <nav class="flex md:flex justify-end space-x-8 ml-auto sm:ml-auto">
                 {#each navItems as item (item.id)}
                     <a
                             href={item.href}
@@ -39,7 +39,7 @@
 
             <a
                     href="/contacto"
-                    class=" hidden md:block bg-accent-turquoise hover:bg-[#96DFE4] text-text-light px-4 py-2 rounded-lg transition-colors">
+                    class=" hidden md:block bg-accent-turquoise hover:bg-[#96DFE4] text-text-light px-4 py-2 rounded-lg transition-colors mx-4">
                 Agendar cita
             </a>
 
