@@ -1,4 +1,4 @@
-<form name="test" method="post" netlify netlify-honeypot="bot-field" hidden>
+<form name="test" method="post" netlify netlify-honeypot="bot-field">
     <input type="hidden" name="test" value="netlify-form-example" />
     <div class="relativa isolate px-6 py-8 lg:px-1 space-y-1 mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 lg:-mt-10 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-1">
         <h2 class="text-base/7 font-bold text-gray-900">¡Agenda tu cita hoy!</h2>
