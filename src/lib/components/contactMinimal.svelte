@@ -25,9 +25,8 @@
                     <label for="street-address" class="block text-sm/6 font-semibold text-gray-900">Dinos lo que
                         necesitas <span class="text-red-600">*</span> </label>
                     <div class="mt-2">
-                        <textarea
-                                class="block bg-white rounded border text-gray-900 leading-normal resize-none w-full h-35 py-2 px-3 font-medium outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:-outline-offset-2 focus:outline-indigo-600"
-                                name="body" type="text" placeholder='Escribe lo que necesites' required></textarea>
+                        <input id="message" name="message" type="text" required
+                               class="h-32 block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6">
                     </div>
                 </div>
             </div>
