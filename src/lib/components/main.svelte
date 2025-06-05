@@ -23,11 +23,11 @@
                             </p>
                             <div class="mt-6">
                                 <a href="/contacto"
-                                   
-                                   on:click={()=> {sendEvent({action:'click',category:'Boton',label:'Empieza Gratis Ahora'})}}
-                                   class="inline-block px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors font-bold">
+                                   on:click={() => {sendEvent({action: 'click', category: 'Boton', label: 'Empieza Gratis Ahora'})}}
+                                   class="inline-block px-8 py-4 text-lg bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all font-bold w-full md:w-auto text-center">
                                     🚀 ¡Empieza Gratis Ahora!
                                 </a>
+
                             </div>
                         </div>
                     </div>
