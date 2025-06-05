@@ -20,7 +20,7 @@
         },
         {
             id: 4,
-            image: "/icons/cita-med.svg",
+            image: "/icons/receta-medica.svg",
             title: "Impresión de Recetas",
             description: "Genera y personaliza recetas médicas con facilidad. Optimiza la comunicación entre odontólogos y pacientes."
         },
@@ -41,7 +41,7 @@
 </script>
 
 <main>
-    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-4 w-full px-5 text-center -mt-24">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3 gap-4 w-full px-5 text-center -mt-24">
         {#each data as data (data.id)}
             <div class="flex flex-col break-words relative items-center max-w-sm rounded overflow-hidden shadow-lg text-center w-full bg-white h-auto mx-auto md:mx-5 ">
                 <img src={data.image} alt="Icono Cita medica" class="size-20 text-4xl mt-5"/>

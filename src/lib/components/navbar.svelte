@@ -22,12 +22,12 @@
         class="w-full z-50 transition-colors duration-300 bg-primary-dark/90 backdrop-blur-sm">
     <div class="container mx-auto px-4 py-3">
 
-        <div class="flex items-center">
+        <div class="flex items-center justify-between">
             <div>
                 <img src="images/LogoBackRec.png" alt="Logo" class="h-25 -mx-2" on:click={() => (window.location.href="/")}>
             </div>
-            <nav class="flex md:flex justify-end space-x-8 ml-auto sm:ml-auto">
-                {#each navItems as item (item.id)}
+            <nav class="hidden sm:flex md:flex justify-end space-x-8 ml-auto sm:ml-auto ">
+            {#each navItems as item (item.id)}
                     <a
                             href={item.href}
                             class="text-text-light hover:text-accent-turquoise transition-colors font-medium"
