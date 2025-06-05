@@ -1,14 +1,18 @@
 <script>
     import { db } from '$lib/firebase';
     import { doc, setDoc } from 'firebase/firestore';
+    import { onMount } from 'svelte';
 
     let firstName = '';
     let email = '';
     let body = '';
 
+    let alertMessage = '';
+    let alertType = '';
+    let showAlert = false;
+
     async function handleSubmit(event) {
         event.preventDefault();
-
 
         try {
             await setDoc(doc(db, 'correos', email), {
@@ -17,17 +21,38 @@
                 body,
                 createdAt: new Date()
             });
-            alert('¡Gracias por unirte! Tu mensaje ha sido enviado.');
-            // Limpiar campos
+
+            showCustomAlert('¡Gracias por unirte! Pronto recibirás noticias nuestras 😉.', 'success');
             firstName = '';
             email = '';
             body = '';
         } catch (error) {
             console.error('Error al enviar:', error);
-            alert('Hubo un error. Intenta más tarde.');
+            showCustomAlert('Hubo un error. Intenta más tarde.', 'error');
         }
     }
+
+    function showCustomAlert(message, type) {
+        alertMessage = message;
+        alertType = type;
+        showAlert = true;
+
+        setTimeout(() => {
+            showAlert = false;
+        }, 4000); // ocultar después de 4 segundos
+    }
 </script>
+
+{#if showAlert}
+    <div class="fixed top-4 left-1/2 transform -translate-x-1/2 z-50 w-full max-w-md">
+        <div class={`rounded-md p-4 text-sm font-medium shadow-md transition-all duration-300
+                ${alertType === 'success'
+                  ? 'bg-green-100 text-green-800 border border-green-300'
+                  : 'bg-red-100 text-red-800 border border-red-300'}`}>
+            {alertMessage}
+        </div>
+    </div>
+{/if}
 
 <form on:submit|preventDefault={handleSubmit}>
     <div class="relativa isolate px-6 py-8 lg:px-1 space-y-1 mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 lg:-mt-10 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-1">
