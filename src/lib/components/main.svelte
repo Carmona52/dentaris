@@ -19,6 +19,7 @@
                             </p>
                             <div class="mt-6">
                                 <a href="/contacto"
+                                   on:click={()=> gtag('event', 'boton_clic', { 'event_category': 'Empieza Gratis', 'event_label': 'Botón X' })}
                                    class="inline-block px-6 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 transition-colors font-bold">
                                     🚀 ¡Empieza Gratis Ahora!
                                 </a>
