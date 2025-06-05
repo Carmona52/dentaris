@@ -4,10 +4,8 @@
 
     const links = [
         {id:1, name: "Inicio", href: "/"},
-        {id:2, name: "Servicios", href: "/servicios"},
         {id:3, name: "Nosotros", href: "/nosotros"},
         {id:4, name: "Contacto", href: "/contacto"},
-        {id:5, name: "Mapa de Sitio", href: "/mapadesitio"}
     ];
 
     const contactInfo = {
@@ -29,7 +27,7 @@
         <div>
             <img src="images/LogoBackRec.png" alt="Logo" class="h-25 -mx-5">
             <p class="text-sm opacity-80">
-                Cuidamos de tu sonrisa con profesionalidad y calidez.
+                Revolucionando la gestión dental con tecnología
             </p>
         </div>
 

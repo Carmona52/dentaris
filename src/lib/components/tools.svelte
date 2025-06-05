@@ -14,16 +14,17 @@
         },
         {
             id: 3,
-            image: "/icons/prescripcion.svg",
-            title: "Continuidad del Tratamiento",
-            description: "Facilita el seguimiento de los tratamientos de los pacientes, asegurando la correcta evolución de su salud bucal."
-        },
-        {
-            id: 4,
             image: "/icons/receta-medica.svg",
             title: "Impresión de Recetas",
             description: "Genera y personaliza recetas médicas con facilidad. Optimiza la comunicación entre odontólogos y pacientes."
         },
+        {
+            id: 4,
+            image: "/icons/prescripcion.svg",
+            title: "Continuidad del Tratamiento",
+            description: "Facilita el seguimiento de los tratamientos de los pacientes, asegurando la correcta evolución de su salud bucal."
+        },
+
         {
             id: 5,
             image: "/icons/inventario.svg",

@@ -4,7 +4,6 @@
     import Tools from "$lib/components/tools.svelte";
     import Information from "$lib/components/info.svelte"
     import ContactWays from "$lib/components/contactWays.svelte";
-    import ContactMinimal from "$lib/components/contactMinimal.svelte";
 </script>
 
 <main class="flex flex-col content-center justify-center items-center w-full">
@@ -12,6 +11,5 @@
     <Tools></Tools>
     <Information></Information>
    <Pricing></Pricing>
-    <ContactMinimal></ContactMinimal>
     <ContactWays/>
 </main>
