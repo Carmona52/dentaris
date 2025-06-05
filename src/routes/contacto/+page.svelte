@@ -1,3 +1,4 @@
+export const prerender = true;
 <main>
     <form name="contact" method="POST" data-netlify="true" action="/">
         <input type="hidden" name="contact" value="contact">
