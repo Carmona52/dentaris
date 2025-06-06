@@ -27,7 +27,6 @@
                                    class="inline-block px-8 py-4 text-lg bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all font-bold w-full md:w-auto text-center">
                                     🚀 ¡Empieza Gratis Ahora!
                                 </a>
-
                             </div>
                         </div>
                     </div>

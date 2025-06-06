@@ -1,4 +1,6 @@
 <script lang="ts">
+    import {sendEvent} from "$lib/analytics";
+
     const data = [
         {
             id: 1,
@@ -39,6 +41,7 @@
         }
     ];
 
+
 </script>
 
 <main>
@@ -53,4 +56,14 @@
             </div>
         {/each}
     </div>
+
+    <div class="flex flex-col align-center justify-center m-auto my-8 max-w-screen-md px-6 py-8">
+        <a href="/contacto"
+           on:click={() => {sendEvent({action: 'click', category: 'Boton', label: 'Empieza Gratis Ahora'})}}
+           class="inline-block px-8 py-4 text-lg bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-all font-bold md:w-auto text-center">
+            🚀 ¡Empieza Gratis Ahora!
+        </a>
+    </div>
+
+
 </main>
