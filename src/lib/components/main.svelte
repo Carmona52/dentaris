@@ -14,7 +14,7 @@
                     <div class="w-full lg:w-7xl px-4 text-center">
                         <div class="mx-auto max-w-4xl">
                             <h1 class="text-white font-extrabold text-4xl sm:text-5xl md:text-6xl drop-shadow-lg">
-                                ¿Cansado del desorden en tu clínica dental?
+                                ¿Cansado de hacer tu historial clínico de forma manual y perder tiempo?
                             </h1>
                             <p class="mt-4 text-base sm:text-lg md:text-xl text-white mx-auto max-w-xl sm:max-w-2xl leading-relaxed">
                                 Con <span class="font-bold ">Dentaris</span> Digitaliza tus procesos, elimina el caos
