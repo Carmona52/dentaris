@@ -19,16 +19,6 @@ Brindar a las clínicas dentales una plataforma integral que facilite la adminis
 
 ---
 
-## 🛠️ Tecnologías utilizadas
-*(Aquí puedes completar con las tecnologías reales que usaste, por ejemplo):*  
-- Frontend: React, Next.js, Tailwind CSS, Material UI  
-- Backend: Node.js, Express  
-- Base de datos: PostgreSQL / MongoDB  
-- Autenticación y seguridad: JWT, bcrypt  
-- Infraestructura: Docker, AWS  
-
----
-
 ## 📌 Estado del proyecto
 Actualmente en fase de desarrollo, con la implementación de los módulos principales en curso.
 
