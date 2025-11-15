@@ -1,7 +1,6 @@
 <script>
     import { db } from '$lib/firebase';
     import { doc, setDoc } from 'firebase/firestore';
-    import { onMount } from 'svelte';
 
     let firstName = '';
     let email = '';
@@ -56,7 +55,7 @@
 
 <form on:submit|preventDefault={handleSubmit}>
     <div class="relativa isolate px-6 py-8 lg:px-1 space-y-1 mx-auto grid max-w-lg grid-cols-1 items-center gap-y-6 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-1">
-        <h1 class="text-base/7 text-gray-900 text-xl">
+        <h1 class="text-gray-900 text-xl">
             Revoluciona tu clínica dental Ahora <span class="font-bold">¡Gratis!</span>
         </h1>
 

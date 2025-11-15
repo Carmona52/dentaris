@@ -4,7 +4,7 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
-		"dev": "vite dev",
+		"dev": "vite --host",
 		"build": "vite build",
 		"preview": "vite preview",
 		"prepare": "svelte-kit sync || echo ''",
@@ -35,7 +35,14 @@
 	},
 	"dependencies": {
 		"@inlang/paraglide-js": "^2.0.0",
-		"firebase": "^11.8.0"
+		"@svelteuidev/composables": "^0.15.7",
+		"@svelteuidev/core": "^0.15.7",
+		"@svelteuidev/dates": "^0.15.7",
+		"@svelteuidev/motion": "^0.15.7",
+		"@svelteuidev/prism": "^0.15.7",
+		"dayjs": "^1.11.18",
+		"firebase": "^11.8.0",
+		"svelte-motion": "^0.12.2"
 	},
 	"pnpm": {
 		"onlyBuiltDependencies": [
