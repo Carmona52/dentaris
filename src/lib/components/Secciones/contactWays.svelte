@@ -13,17 +13,16 @@
 </script>
 
 <div class=" py-6 px-4 sm:px-6 lg:px-12 w-x">
-    <div class="max-w-3xl mx-auto text-center">
+    <div class="mx-auto text-center">
         <h1 class="mt-2 text-5xl font-semibold tracking-tight text-balance text-gray-900 sm:text-6xl">CONTACTÁNOS</h1>
-        Póngase en contacto con nosotros
-        <div class="bg-blue-50 rounded-lg p-6 mb-12">
+        <div class="rounded-lg p-6 mb-12">
             <p class="text-gray-700 mb-6">
                 ¿Tiene alguna pregunta o necesita ayuda? Estamos aquí para ayudarle.
             </p>
 
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <!-- Email -->
-                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                <div class="bg-blue-50  p-6 rounded-lg border border-blue-100 shadow-sm hover:shadow-lg transition-shadow">
                     <h3 class="text-lg font-medium text-gray-900 mb-2">Escribenos</h3>
                     <p class="text-gray-600 mb-4">Envianos tus dudas o sugerencias al siguiente correo:</p>
                     <a
@@ -39,7 +38,7 @@
                     </a>
                 </div>
 
-                <div class="bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                <div class="bg-blue-50 p-6 rounded-lg border border-blue-100 shadow-sm hover:shadow-lg transition-shadow">
                     <h3 class="text-lg font-medium text-gray-900 mb-2">Soporte Telefonico</h3>
                     <p class="text-gray-600">{contactInfo.days}</p>
                     <p class="text-gray-600 mb-4">{contactInfo.hours}</p>
@@ -70,7 +69,7 @@
             </div>
         </div>
 
-        <div class="mt-8">
+        <!-- <div class="mt-8">
             <h3 class="text-lg font-medium text-gray-900 mb-2">Visítanos</h3>
             <p class="text-gray-600">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline mr-2" viewBox="0 0 20 20"
@@ -81,6 +80,6 @@
                 </svg>
                 {contactInfo.address}
             </p>
-        </div>
+        </div> -->
     </div>
 </div>

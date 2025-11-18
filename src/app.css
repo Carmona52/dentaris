@@ -22,10 +22,12 @@
 
     body {
         font-size: var(--text-body);
-        background-color: #F2F8FC;
-
-
+        /* background-color: #F2F8FC; */
     }
+    
+    html {
+    scroll-behavior: smooth;
+}
 
     .principal-btn {
         @apply bg-[#96DFE4] text-black px-4 py-2 rounded transition-all duration-300 font-bold;

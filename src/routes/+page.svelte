@@ -1,9 +1,13 @@
 <script>
-    import Recibida from "$lib/components/main.svelte";
-    import Tools from "$lib/components/tools.svelte";
+    import Tools from "$lib/components/Secciones/tools.svelte";
+    import ContactWays from "$lib/components/Secciones/contactWays.svelte";
+    import Main from "$lib/components/Secciones/main.svelte";
+    import Pricing from "$lib/components/Secciones/pricing.svelte";
 </script>
 
 <main class="flex flex-col content-center justify-center items-center w-full">
-    <Recibida></Recibida>
-    <Tools></Tools>
+    <Main/>
+    <Tools />
+    <Pricing />
+    <ContactWays />
 </main>

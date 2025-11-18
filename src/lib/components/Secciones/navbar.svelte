@@ -19,31 +19,33 @@
 
 <header
     class:bg-primary-dark={isScrolled}
-    class="w-full z-50 transition-colors duration-300 bg-primary-dark/90 backdrop-blur-sm"
+    class="z-50 transition-colors duration-300 bg-primary-dark/90 backdrop-blur-sm"
 >
-    <div class="container mx-auto px-4 py-3">
+    <!-- Reducimos py de 3 a 2 -->
+    <div class="container mx-auto px-4 py-2">
         <div class="flex items-center justify-between">
-            <div>
-                <a href="/">
-                    <img
-                        src="images/LogoBackRec.png"
-                        alt="Logo"
-                        class="h-25 -mx-2"
-                    />
-                </a>
-            </div>
-            <nav
-                class="hidden sm:flex md:flex justify-end space-x-8 ml-auto sm:ml-auto"
-            >
+            <!-- Logo -->
+            <a href="/" class="flex items-center">
+                <img
+                    src="images/LogoBackRec.png"
+                    alt="Logo"
+                    class="h-12 sm:h-14 -mx-1"
+                />
+            </a>
+
+            <!-- Nav Desktop -->
+            <nav class="hidden sm:flex justify-end ml-auto">
                 {#each navItems as item (item.id)}
                     <a
                         href={item.href}
-                        class="hidden md:block bg-accent-turquoise hover:bg-[#96DFE4] font-semibold px-2 py-2 rounded-lg transition-colors mx-2">
+                        class="hidden md:block bg-accent-turquoise hover:bg-[#96DFE4] font-semibold px-3 py-1.5 rounded-lg transition-colors mx-1"
+                    >
                         {item.name}
                     </a>
                 {/each}
             </nav>
 
+            <!-- Botón hamburguesa -->
             <button
                 on:click={() => (isOpen = !isOpen)}
                 class="md:hidden text-text-light focus:outline-none"
@@ -81,13 +83,15 @@
             </button>
         </div>
 
+        <!-- Menú móvil -->
         {#if isOpen}
-            <div class="md:hidden mt-4 pb-4 space-y-3">
+            <!-- Quitamos mt-4 pb-4 -> mt-2 pb-2 -->
+            <div class="md:hidden mt-2 pb-2 space-y-2">
                 {#each navItems as item (item.id)}
                     <a
                         on:click={() => (isOpen = !isOpen)}
                         href={item.href}
-                        class="block py-2 text-text-light hover:text-accent-turquoise transition-colors"
+                        class="block py-1.5 text-text-light hover:text-accent-turquoise transition-colors"
                     >
                         {item.name}
                     </a>
@@ -95,7 +99,7 @@
                 <a
                     on:click={() => (isOpen = !isOpen)}
                     href="/contacto"
-                    class="block mt-4 bg-accent-turquoise text-text-light text-center py-2 rounded-lg"
+                    class="block mt-3 bg-accent-turquoise text-text-light text-center py-2 rounded-lg"
                 >
                     Agendar cita
                 </a>
