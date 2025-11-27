@@ -34,7 +34,7 @@
                 <div>
                     <h3 class="text-lg font-semibold text-blue-600">Paquete Básico</h3>
                     <p class="mt-4 flex items-baseline gap-x-2">
-                        <span class="text-4xl font-bold text-gray-900">$199Mxn</span>
+                        <span class="text-4xl font-bold text-gray-900">$199 MXN</span>
                     </p>
                     <p class="mt-4 text-gray-600 text-sm">Perfecto para pequeños negocios</p>
                     <ul class="mt-6 space-y-3 text-sm text-gray-700">
@@ -61,7 +61,7 @@
             <div class="rounded-2xl bg-white/60 p-6 sm:p-8 ring-1 ring-gray-200 shadow-sm hover:shadow-md transition">
                 <h3 class="text-lg font-semibold text-blue-600">Paquete Completo</h3>
                 <p class="mt-4 flex items-baseline gap-x-2">
-                    <span class="text-4xl font-bold text-gray-900">$299 Mxn</span>
+                    <span class="text-4xl font-bold text-gray-900">$299 MXN</span>
                 </p>
                 <p class="mt-4 text-gray-600 text-sm">Ideal para clínicas con mayor demanda</p>
                 <ul class="mt-6 space-y-3 text-sm text-gray-700">
